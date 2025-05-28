@@ -54,6 +54,7 @@ ToDo:
 
 Add USB-NCM virtual ethernet so that we don't need wifi if we don't want it or haven't got it.
 Find best fit optimizations for LVGL when writing to the web socket driver.
+Find best fit optimizations for the web socket driver when reading from LVGL.
 
 */
 
