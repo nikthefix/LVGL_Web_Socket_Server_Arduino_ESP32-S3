@@ -49,6 +49,11 @@ Troubleshooting:
 In case of build failure you can try deleting the cached sketch object files located here -
 "C:\Users\your_user_name\AppData\Local\arduino\sketches"
 
+
+ToDo:
+
+Add USB-NCM virtual ethernet so that we don't need wifi if we don't want it or haven't got it.
+
 */
 
 
