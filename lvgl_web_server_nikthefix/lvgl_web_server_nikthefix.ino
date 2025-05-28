@@ -13,13 +13,13 @@ LVGL 8.3.11
 
 Notes:
 
-Set your router SSID and Password at line 63/64
-Build and run sketch
-Check serial monitor for dynamically assigned local IP address
-Go to this address in browser
-The canvas size will change automatically to fit the LVGL project dimensions
-The canvas position in the viewport can be changed in index.h and the mouse coordinates will automatically reference the top left of the canvas
-Press F12 to open the web console and monitor the relative mouse coordinates
+Set your router SSID and Password at line 63/64.
+Build and run sketch.
+Check serial monitor for dynamically assigned local IP address.
+Go to this address in browser.
+The canvas size will change automatically to fit the LVGL project dimensions.
+The canvas position in the viewport can be changed in index.h and the mouse coordinates will automatically reference the top left of the canvas.
+Press F12 to open the web console and monitor the relative mouse coordinates.
 
 Since the ESP32-s3 is rendering the LVGL frame buffer into HTML Canvas using WebSockets, the stronger your wifi connection the faster the draw will be.
 This is obviousely no substitute for a well designed web UI hosted by the ESP32 but has the advantage that you can easily mirror your existing LCD gui to the web page without any extra work.
@@ -53,6 +53,7 @@ In case of build failure you can try deleting the cached sketch object files loc
 ToDo:
 
 Add USB-NCM virtual ethernet so that we don't need wifi if we don't want it or haven't got it.
+Find best fit optimizations for LVGL when writing to the web socket driver.
 
 */
 
