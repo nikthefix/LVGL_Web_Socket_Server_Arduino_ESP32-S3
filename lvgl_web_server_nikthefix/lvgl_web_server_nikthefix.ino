@@ -22,6 +22,8 @@ The canvas position in the viewport can be changed in index.h and the mouse coor
 Press F12 to open the web console and monitor the relative mouse coordinates
 
 Since the ESP32-s3 is rendering the LVGL frame buffer into HTML Canvas using WebSockets, the stronger your wifi connection the faster the draw will be.
+This is obviousely no substitute for a well designed web UI hosted by the ESP32 but has the advantage that you can easily mirror your existing LCD gui to the web page without any extra work.
+Trying to duplicate your design language from LVGL to HTML/JS/CSS could be more work than is reasonable for smaller projects.
 
 
 
