@@ -13,7 +13,7 @@ LVGL 8.3.11
 
 Notes:
 
-Set your router SSID and Password at line 63/64.
+Set your router SSID and Password at line 74/75.
 Build and run sketch.
 Check serial monitor for dynamically assigned local IP address.
 Go to this address in browser.
