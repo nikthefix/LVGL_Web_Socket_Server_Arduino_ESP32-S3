@@ -52,9 +52,11 @@ In case of build failure you can try deleting the cached sketch object files loc
 
 ToDo:
 
-Add USB-NCM virtual ethernet so that we don't need wifi if we don't want it or haven't got it.
+Add USB-NCM virtual ethernet so that we don't need wifi if we don't want it or haven't got it (P4).
 Find best fit optimizations for LVGL when writing to the web socket driver.
 Find best fit optimizations for the web socket driver when reading from LVGL.
+Auto centering of canvas in viewport.
+Auto scaling of canvas and contents (as an option) according to viewport size.
 
 */
 
