@@ -176,6 +176,7 @@ window.addEventListener("load", init, false);
 </script>
 
 <body>
+        <div id='d1' style="position:absolute; top:100px; left:100px; z-index:1">
 	<canvas id="canvas" width="1" height="1"></canvas>
 </body>
 </html>
